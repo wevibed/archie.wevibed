@@ -1,0 +1,111 @@
+{
+  "status": "draft",
+  "business": {
+    "name": "Archie Electronics",
+    "shortName": "Archie Electronics",
+    "tagline": "Phones, audio and everyday tech in Zimbabwe",
+    "description": "Shop Samsung smartphones, NESTY earbuds, headphones and portable speakers from Archie Electronics. Browse prices and ask the shop to confirm stock and specifications.",
+    "currencySymbol": "$",
+    "sampleNote": "Prices are transcribed from the supplied catalogue. Stock, device condition, model variants, specifications and warranty must be confirmed with Archie Electronics before purchase."
+  },
+  "contact": {
+    "whatsapp": "",
+    "displayNumber": "Add verified WhatsApp number before launch",
+    "address": "Shop address not confirmed \u2014 contact Archie Electronics for location and collection details.",
+    "hours": "Please enquire for current opening hours"
+  },
+  "brand": {
+    "accent": "#FF7A18",
+    "fontsUrl": "https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+    "logo": ""
+  },
+  "seo": {
+    "domain": "archie-electronics.pages.dev",
+    "ogImage": ""
+  },
+  "hero": {
+    "image": "/images/products/samsung-ultra-duo-1300.jpg",
+    "imageAlt": "Samsung Galaxy smartphones from the Archie Electronics catalogue",
+    "eyebrow": "SMARTPHONES / AUDIO / SPEAKERS",
+    "headline": "Your next gadget starts here.",
+    "subheadline": "Browse Samsung phones, NESTY audio and portable speakers with catalogue prices. Message Archie Electronics to confirm exact models, stock and specifications.",
+    "primaryCta": "Shop the catalogue",
+    "secondaryCta": "Contact the shop"
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Shop",
+        "href": "#shop"
+      },
+      {
+        "label": "Why Archie",
+        "href": "#why"
+      },
+      {
+        "label": "Visit / contact",
+        "href": "#visit"
+      }
+    ],
+    "cta": "Ask about a product",
+    "message": "Hello Archie Electronics, I found your website and would like to ask about a product."
+  },
+  "shop": {
+    "heading": "Shop the catalogue",
+    "searchLabel": "Search products",
+    "searchPlaceholder": "Search Samsung, NESTY, earbuds, model...",
+    "brandLabel": "Brand",
+    "categories": [
+      "Phones",
+      "Earbuds",
+      "Headphones",
+      "Speakers"
+    ],
+    "allLabel": "All products",
+    "countOne": "product",
+    "countMany": "products",
+    "empty": "No products match that search. Ask Archie Electronics about availability.",
+    "photoLabel": "Product photo",
+    "addCompare": "Compare",
+    "addedCompare": "Added to compare",
+    "compareSelected": "selected to compare",
+    "compareNow": "Compare products",
+    "clear": "Clear",
+    "compareTitle": "Product comparison",
+    "specWarranty": "Warranty",
+    "specAvailability": "Availability",
+    "orderCta": "Ask about this product",
+    "relatedLabel": "Related products",
+    "orderMessage": "Hello Archie Electronics, is the {name} ({model}) available at {price}? Please confirm the exact model/specifications.",
+    "priceSuffix": "",
+    "noPrice": "Ask for price"
+  },
+  "availability": {
+    "in": "In stock",
+    "low": "Low stock",
+    "out": "Sold out",
+    "enq": "Confirm availability"
+  },
+  "highlights": [
+    {
+      "title": "Clear catalogue prices",
+      "text": "Browse the prices shown in the supplied Archie Electronics product catalogue. Confirm current pricing before paying."
+    },
+    {
+      "title": "Confirm the exact model",
+      "text": "Some handwritten labels and package details are unclear. Ask the shop to verify model, storage, condition and included accessories."
+    },
+    {
+      "title": "Order enquiries by WhatsApp",
+      "text": "Build a shortlist or cart and send a product enquiry to the shop. Confirm stock, collection/delivery and payment options directly."
+    }
+  ],
+  "visit": {
+    "heading": "Contact Archie Electronics",
+    "hoursLabel": "Opening hours",
+    "whatsappLabel": "WhatsApp"
+  },
+  "footer": {
+    "credit": "Website by WeVibed"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "items": [
+    {
+      "id": "samsung-s24-ultra-256",
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "model": "S24 Ultra (labelled NL)",
+      "category": "Phones",
+      "price": 580,
+      "availability": "enq",
+      "tint": 0,
+      "image": "/images/products/samsung-s24-ultra.jpg",
+      "description": "Titanium-look Samsung Galaxy S24 Ultra shown in the supplied product photo. The handwritten label lists 12GB RAM and 256GB storage. Confirm device condition and regional variant with the shop.",
+      "specs": [
+        {
+          "label": "RAM",
+          "value": "12GB (seller label)"
+        },
+        {
+          "label": "Storage",
+          "value": "256GB (seller label)"
+        },
+        {
+          "label": "Variant",
+          "value": "NL shown on label; confirm exact region"
+        },
+        {
+          "label": "Condition",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "samsung-galaxy-phone-250",
+      "name": "Samsung Galaxy Smartphone",
+      "brand": "Samsung",
+      "model": "Exact model to confirm",
+      "category": "Phones",
+      "price": 250,
+      "availability": "enq",
+      "tint": 1,
+      "image": "/images/products/samsung-galaxy-phone-250.jpg",
+      "description": "Samsung Galaxy phone shown in the supplied photo. The model name and full specification label are not clear enough to verify.",
+      "specs": [
+        {
+          "label": "Model",
+          "value": "Confirm exact Galaxy model"
+        },
+        {
+          "label": "RAM",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Storage",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Condition",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "samsung-ultra-1300",
+      "name": "Samsung Galaxy Ultra \u2014 dual-phone listing",
+      "brand": "Samsung",
+      "model": "Ultra model / exact generation to confirm",
+      "category": "Phones",
+      "price": 1300,
+      "availability": "enq",
+      "tint": 0,
+      "image": "/images/products/samsung-ultra-duo-1300.jpg",
+      "description": "Two Samsung Ultra-style phones shown together. The photo label appears to state 12GB RAM and 256GB storage, but the exact model generation should be confirmed before purchase.",
+      "specs": [
+        {
+          "label": "RAM",
+          "value": "12GB (photo label; confirm)"
+        },
+        {
+          "label": "Storage",
+          "value": "256GB (photo label; confirm)"
+        },
+        {
+          "label": "Model generation",
+          "value": "Confirm exact model"
+        },
+        {
+          "label": "Listing",
+          "value": "Photo shows two devices; price applies as advertised, confirm quantity"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "samsung-galaxy-phone-220",
+      "name": "Samsung Galaxy Smartphone",
+      "brand": "Samsung",
+      "model": "Model label appears to read A24; confirm",
+      "category": "Phones",
+      "price": 220,
+      "availability": "enq",
+      "tint": 1,
+      "image": "/images/products/samsung-galaxy-phone-220.jpg",
+      "description": "Samsung Galaxy phone shown in the supplied photo. The handwritten label appears to include A24 and 128GB; confirm the exact model and storage with the shop.",
+      "specs": [
+        {
+          "label": "Model",
+          "value": "Label may read A24; confirm"
+        },
+        {
+          "label": "Storage",
+          "value": "128GB appears on label; confirm"
+        },
+        {
+          "label": "RAM",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Condition",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "wireless-earbuds-10",
+      "name": "Wireless Earbuds",
+      "brand": "Unconfirmed brand",
+      "model": "Model not visible",
+      "category": "Earbuds",
+      "price": 10,
+      "availability": "enq",
+      "tint": 3,
+      "image": "/images/products/wireless-earbuds-10.jpg",
+      "description": "Compact wireless audio accessory shown in the supplier photo. Brand and technical specifications are not legible.",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Wireless audio accessory"
+        },
+        {
+          "label": "Bluetooth version",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Battery life",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Charging port",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "nesty-earbuds-15",
+      "name": "NESTY Wireless Earbuds",
+      "brand": "NESTY",
+      "model": "Model not legible",
+      "category": "Earbuds",
+      "price": 15,
+      "availability": "enq",
+      "tint": 3,
+      "image": "/images/products/nesty-earbuds-15.jpg",
+      "description": "NESTY-branded wireless earbuds in retail packaging. Exact model specifications are not clearly readable.",
+      "specs": [
+        {
+          "label": "Brand",
+          "value": "NESTY"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Confirm Bluetooth version"
+        },
+        {
+          "label": "Battery life",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Charging case",
+          "value": "Shown in packaging"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "nesty-earbuds-black-15",
+      "name": "NESTY Wireless Earbuds \u2014 Black Case",
+      "brand": "NESTY",
+      "model": "Model not legible",
+      "category": "Earbuds",
+      "price": 15,
+      "availability": "enq",
+      "tint": 3,
+      "image": "/images/products/nesty-earbuds-black-15.jpg",
+      "description": "NESTY earbuds with a black charging case, photographed in the original packaging.",
+      "specs": [
+        {
+          "label": "Brand",
+          "value": "NESTY"
+        },
+        {
+          "label": "Case",
+          "value": "Black charging case shown"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Battery life",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "nesty-earbuds-white-20",
+      "name": "NESTY Wireless Earbuds \u2014 White",
+      "brand": "NESTY",
+      "model": "Model not legible",
+      "category": "Earbuds",
+      "price": 20,
+      "availability": "enq",
+      "tint": 3,
+      "image": "/images/products/nesty-earbuds-white-20.jpg",
+      "description": "White NESTY wireless earbuds shown in the supplied box photo.",
+      "specs": [
+        {
+          "label": "Brand",
+          "value": "NESTY"
+        },
+        {
+          "label": "Colour",
+          "value": "White earbuds"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Battery life",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "nesty-anc-headphones-10",
+      "name": "NESTY ANC Over-Ear Headphones",
+      "brand": "NESTY",
+      "model": "Exact model to confirm",
+      "category": "Headphones",
+      "price": 10,
+      "availability": "enq",
+      "tint": 2,
+      "image": "/images/products/nesty-anc-headphones-10.jpg",
+      "description": "NESTY over-ear headphones. The box advertises ANC and up to 57 hours of battery life; confirm the exact model and advertised runtime with the shop.",
+      "specs": [
+        {
+          "label": "Noise control",
+          "value": "ANC indicated on box"
+        },
+        {
+          "label": "Battery life",
+          "value": "Up to 57 hours advertised on box"
+        },
+        {
+          "label": "Bluetooth version",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Charging port",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "wireless-headphones-20",
+      "name": "Wireless Over-Ear Headphones",
+      "brand": "Brand/model unclear",
+      "model": "Model not legible",
+      "category": "Headphones",
+      "price": 20,
+      "availability": "enq",
+      "tint": 2,
+      "image": "/images/products/wireless-headphones-20.jpg",
+      "description": "Over-ear wireless headphones shown in the supplied retail box. Brand and specifications need confirmation.",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Over-ear headphones"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Battery life",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Microphone",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "gaming-headphones-20",
+      "name": "Gaming Headphones",
+      "brand": "NESTY (box branding appears)",
+      "model": "Model appears MH200-X; confirm",
+      "category": "Headphones",
+      "price": 20,
+      "availability": "enq",
+      "tint": 2,
+      "image": "/images/products/gaming-headphones-20.jpg",
+      "description": "Gaming-style headphones in a NESTY-branded box. The package appears to show model MH200-X; verify the model and features with the shop.",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Gaming-style headphones"
+        },
+        {
+          "label": "Model",
+          "value": "MH200-X appears on box; confirm"
+        },
+        {
+          "label": "Connection",
+          "value": "Confirm wired/wireless type"
+        },
+        {
+          "label": "Microphone",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "nesty-speaker-90",
+      "name": "NESTY Portable Bluetooth Speaker",
+      "brand": "NESTY",
+      "model": "Model not visible",
+      "category": "Speakers",
+      "price": 90,
+      "availability": "enq",
+      "tint": 4,
+      "image": "/images/products/nesty-speaker-90.jpg",
+      "description": "Portable NESTY speaker with a carry handle and lighting shown on the retail box. Confirm the exact model and power rating before ordering.",
+      "specs": [
+        {
+          "label": "Brand",
+          "value": "NESTY"
+        },
+        {
+          "label": "Lighting",
+          "value": "RGB lighting shown on box"
+        },
+        {
+          "label": "Power output",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    },
+    {
+      "id": "nesty-speaker-130",
+      "name": "NESTY Portable Speaker",
+      "brand": "NESTY",
+      "model": "Model not visible on speaker photo",
+      "category": "Speakers",
+      "price": 130,
+      "availability": "enq",
+      "tint": 4,
+      "image": "/images/products/nesty-speaker-130.jpg",
+      "description": "NESTY portable speaker shown in the supplied photo with a $130 price sticker. The model number and technical specifications are not visible.",
+      "specs": [
+        {
+          "label": "Brand",
+          "value": "NESTY"
+        },
+        {
+          "label": "Price label",
+          "value": "$130 shown in photo"
+        },
+        {
+          "label": "Power output",
+          "value": "Confirm with shop"
+        },
+        {
+          "label": "Battery life",
+          "value": "Confirm with shop"
+        }
+      ],
+      "warranty": "Confirm with shop",
+      "related": []
+    }
+  ]
+}

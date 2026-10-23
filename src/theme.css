@@ -1,0 +1,43 @@
+/* Electronics: dark glass theme. */
+:root {
+  --page: #07131F;
+  --ink: #EAF2F8;
+  --muted: #9FB2C4;
+  --accent: #FF8A00;
+  --accent-ink: #07131F;
+  --glass-bg: rgba(255,255,255,.07);
+  --glass-border: rgba(255,255,255,.16);
+  --glass-shadow: 0 12px 40px rgba(0,0,0,.35);
+  --glass-dark-bg: rgba(10,30,46,.62);
+  --glass-strong-bg: rgba(12,30,46,.92);
+  --scrim: linear-gradient(to top, rgba(4,10,18,.8), rgba(4,10,18,.1) 65%);
+  --hero-gradient: radial-gradient(circle at 75% 30%, #00C2D6 0, transparent 40%), radial-gradient(circle at 20% 70%, #2F5BFF 0, transparent 45%), linear-gradient(160deg, #0A2236, #06101B);
+  --font-display: 'Sora', system-ui, sans-serif;
+  --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --blob-opacity: .55;
+  --blob-2: #2F5BFF;
+  --blob-3: #FF8A00;
+  --tint-0: linear-gradient(135deg, #0E5560, #0A3A44);
+  --tint-1: linear-gradient(135deg, #5A3A0B, #3D2707);
+  --tint-2: linear-gradient(135deg, #1E2E6B, #14204D);
+  --tint-3: linear-gradient(135deg, #0E5560, #1E2E6B);
+  --tint-4: linear-gradient(135deg, #5A3A0B, #1E2E6B);
+  --tint-5: linear-gradient(135deg, #1E2E6B, #0E5560);
+}
+.blobs span:nth-child(1) { background: #00A8BA; }
+.blobs span:nth-child(3) { opacity: .35; }
+.tint-0, .tint-1, .tint-2, .tint-3, .tint-4, .tint-5 { color: #EAF2F8; }
+.mono { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .08em; font-size: 12px; }
+.pill-av { font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 9999px; }
+.av-in { background: rgba(60,200,120,.22); color: #9FF0C3; }
+.av-low { background: rgba(255,160,40,.22); color: #FFD08A; }
+.av-out { background: rgba(255,90,90,.22); color: #FFB3B3; }
+.av-enq { background: rgba(255,255,255,.14); color: #C9D7E3; }
+.card { transition: transform .2s, border-color .2s; }
+.card:hover { transform: translateY(-4px); border-color: rgba(255,138,0,.6); }
+.nav-links a:hover { color: var(--accent); background: transparent; }
+.field { width: 100%; box-sizing: border-box; padding: 13px 20px; border: 1px solid rgba(255,255,255,.2); border-radius: 9999px; font: inherit; font-size: 16px; background: rgba(255,255,255,.08); color: var(--ink); }
+.chip, .chip[aria-pressed="false"] { color: var(--ink); }
+.chip[aria-pressed="true"] { color: var(--accent-ink); }
+.spec td, .spec th { padding: 8px 10px 8px 0; border-bottom: 1px solid rgba(255,255,255,.12); text-align: left; vertical-align: top; }

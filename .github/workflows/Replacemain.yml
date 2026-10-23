@@ -1,0 +1,64 @@
+
+name: Extract Electronics Website ZIP
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract and replace website
+        run: |
+          set -e
+
+          ZIP="wevibed-electronics-cloudflare-pages.zip"
+          test -f "$ZIP" || {
+            echo "ZIP not found in repository root"
+            exit 1
+          }
+
+          mkdir -p /tmp/electronics
+          unzip -oq "$ZIP" -d /tmp/electronics
+
+          SRC="/tmp/electronics"
+          COUNT=$(find "$SRC" -mindepth 1 -maxdepth 1 | wc -l)
+
+          if [ "$COUNT" -eq 1 ] && \
+             [ -d "$(find "$SRC" -mindepth 1 -maxdepth 1 -type d)" ]; then
+            SRC="$(find "$SRC" -mindepth 1 -maxdepth 1 -type d)"
+          fi
+
+          # Preserve the existing GitHub workflows.
+          find . -mindepth 1 -maxdepth 1 \
+            ! -name ".git" \
+            ! -name ".github" \
+            -exec rm -rf {} +
+
+          # Copy project files, excluding workflows from the ZIP.
+          find "$SRC" -mindepth 1 -maxdepth 1 \
+            ! -name ".github" \
+            -exec cp -a -t . {} +
+
+          rm -f "$ZIP"
+
+          test -f package.json
+          test -f index.html
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Replace electronics website project"
+            git push
+          else
+            echo "No changes to commit"
+          fi
